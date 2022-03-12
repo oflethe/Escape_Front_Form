@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, min-scale=1, max-scale=1, shrink-to-fit=no">
+        <title>表單製作 | ESCAPE</title>
+        <meta name="description" content="製作表單。">
+        <meta name="author" content="菜鳥前端">
+        <link rel="stylesheet" href="./css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        
+    </head>
+
+
+    <body>
+      <div class="container">
+
+        <div class=" ipad ">
+          <div class="container">
+          <div class="slogan01 pt-3 mb-3  mt-3">六角西餐廳 </div>
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc7ilZBZHtIYmcm1TwtI0N2u2Rv7i4O3goZ9ZCNga2Gasilxw/formResponse" method="POST" id="res_Data">
+          
+            <div class="row basicdata mb-3 mt-3">
+              <div class="col-12 col-md-6 namedata ">
+                <label for="name" class="form-label ">姓名</label>
+                <input type="text" class="form-control " placeholder="請提供完整姓名：王小美，不接受'王小姐'" aria-label="name" name="entry.1498063967">
+              </div>
+              <div class="col-12 col-md-6  ">
+                <label for="telephone" class="form-label">電話</label>
+                <input type="telephone" class="form-control " placeholder="EX:0913456789，請勿填寫特殊符號字元" aria-label="telephone" name="entry.1364310287" maxlength="10">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-12 lengthinput mb-3">
+                <label for="date" class="form-label">日期</label>
+                <input type="date" class="form-control" id="date" placeholder="" name="entry.843451291">
+                
+              </div>
+              
+              <div class="col-12 col-md-12 lengthinput mb-3">
+                <label for="people" class="form-label">用餐人數</label>
+                
+              <select class="form-select " aria-label="people" name="entry.75879633" >
+                <option selected disabled></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <i class="bi bi-caret-down-fill"></i>
+              </div>
+              
+              <div class="col-md-12 mt-3">
+                <label for="other" class="form-label">其他項目</label>
+              </div>
+            <div class="ms-3 mb-4">
+            <div class="col-md-12 form-check">
+              <input type="checkbox" class="form-check-input" id="childChiar" name="entry.42212885" value="需要兒童座椅">
+              <label class="form-check-label" for="childChiarlbl">需要兒童座椅</label>
+            </div>
+            <div class="col-md-12 form-check">
+              <input type="checkbox" class="form-check-input" id="veg" name="entry.42212885" value="素食餐點">
+              <label class="form-check-label" for="veglbl">素食餐點</label>
+            </div>
+            <div class="col-md-12 form-check">
+              <input type="checkbox" class="form-check-input" id="smoke" name="entry.42212885"  value="吸煙區">
+              <label class="form-check-label" for="smokelbl">吸煙區</label>
+            </div>
+          </div>
+            <div class="d-grid gap-2 buttonsub">
+              <button class="btn btn-dark " type="submit">送出</button>
+
+            </div>
+            </div>
+
+              
+  
+              
+          </form>
+        </div>
+        </div>
+        
+
+      </div>
+
+    </body>
+    <script>
+      
+    </script>
+</html>

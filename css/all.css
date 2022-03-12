@@ -1,0 +1,52 @@
+
+
+.ipad{
+    position: relative;
+    background:#929292;
+    border-radius: 0px;   
+    max-width: 834px;
+    height: 607px;
+    background: #FFFFFF;
+}
+
+.slogan01{
+/* 六角西餐廳 */
+text-align:center;
+line-height: 45px;
+/* margin: 0 347px 54px 347px; */
+
+/* 蘋方 h2 */
+font-family: PingFang TC;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+/* identical to box height */
+color: #212529;
+}
+
+/*姓名電話CSS*/
+.basicdata input{
+    max-width: 396px;
+    height: 38px;
+}
+
+.namedata{
+padding-bottom: 12px;
+}
+
+
+.lengthinput input{
+    max-width: 800px;
+    height: 38px;
+}
+
+.lengthinput select{
+    max-width: 800px;
+    height: 38px;
+}
+
+.buttonsub {
+    margin-top:24px;
+    max-width: 800px;
+    height: 38px;
+}
